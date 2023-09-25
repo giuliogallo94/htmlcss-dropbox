@@ -24,6 +24,7 @@ h2 {
     background-color: #0061ff;
     padding: 0.2rem 0.8rem;
     color: white;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -88,9 +89,9 @@ nav {
     margin-bottom: 2rem;
 }
 
- .hero-left a {
+ /* .hero-left a {
     text-decoration: none;
-}
+} */
 
 .hero-left i {
     margin-top: 4rem;
@@ -114,14 +115,14 @@ nav {
     margin: 8rem auto;
     /* Debug */
     min-height: 500px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 /* Section-1 */
 .section-1 {
     /* Debug */
     min-height: 750px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .input {
@@ -136,31 +137,110 @@ input {
     margin-left: 0.5rem;
 }
 
-.plan {
-    /* Debug */
-    background-color: gray;
-    min-height: 250px;
-
-}
-
-.row-1 {
+.plans {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 3rem;
     margin: 2rem auto;
+    /* Debug */
+    min-height: 250px;
 }
 
-.col-1 {
+.plans a {
+    text-decoration: none;
+ }
+
+.plans ul {
+    list-style-type: none;
+}
+
+.col-plan {
     width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
     /* Debug */
     min-height: 700px;
-    background-color: gray;
 }
 
-.enterprise {
-    /* Debug */
-    background-color: gray;
-    min-height: 250px;
+.title-plan {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+
+.title-plan i {
+    margin-right: 0.3rem;
+}
+
+.single-plan {
+    padding: 1rem;
+}
+
+.single-plan h3 {
+    margin-bottom: 1rem;
+}
+
+.single-plan p {
+    color: grey;
+    margin-top: 0.5rem;
+    font-size: 13px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.details-plan {
+    margin-top: 1.5rem;
+}
+
+.single-plan li {
+    margin-bottom: 0.7rem;
+    font-size: 13px;
+}
+
+.cta {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+}
+
+.cta .blue-btn {
+    font-size: 13px;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.cta p {
+    margin-top: 1rem;
+}
+
+a.buy-now {
+    color: blue;
+    text-decoration: underline;
+ }
+
+.single-plan hr {
+    margin-top: 2rem;
+    width: 20%;
+    color: grey;
+}
+
+.main-points {
+    margin-top: 2rem;
+}
+
+.main-points i {
+    color: blue;
+}
+
+.main-points-list {
+    font-weight: bold;
 }
 
 /* Section-2 */
