@@ -184,8 +184,12 @@ input {
 }
 
 .single-plan p {
-    color: grey;
     margin-top: 0.5rem;
+    font-size: 13px;
+}
+
+.single-plan li {
+    margin-bottom: 0.7rem;
     font-size: 13px;
 }
 
@@ -194,13 +198,12 @@ input {
     font-size: 13px;
 }
 
-.details-plan {
-    margin-top: 1.5rem;
+.grey {
+    color: grey;
 }
 
-.single-plan li {
-    margin-bottom: 0.7rem;
-    font-size: 13px;
+.details-plan {
+    margin-top: 1.5rem;
 }
 
 .cta {
@@ -243,6 +246,35 @@ a.buy-now {
     font-weight: bold;
 }
 
+.enterprise {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.bottom-enterprise {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.left-enterprise {
+    width: 60%;
+}
+
+.left-enterprise h6 {
+    margin-top: 1rem;
+}
+
+.left-enterprise p {
+    font-size: 13px;
+    margin-top: 2rem;
+}
+.right-enterprise {
+    width: 40%;
+    text-align: right;
+}
 /* Section-2 */
 .section-2 {
     display: flex;
