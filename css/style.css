@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Header */
+/* HEADER */
 header {
     background-color: #B4D0E7;
 }
@@ -53,6 +53,50 @@ nav {
     top: 3rem;
     /* Debug */
     height: 100%;
-    background-color: red;
+    background-color: gray;
     z-index: 5;
 }
+
+/* MAIN */
+.container {
+    width: 65%;
+    margin: 6rem auto;
+    /* Debug */
+    min-height: 2000px;
+    background-color: green;
+}
+
+/* Section-1 */
+.section-1 {
+    
+    /* Debug */
+    min-height: 750px
+}
+
+.plan {
+    /* Debug */
+    background-color: gray;
+    min-height: 250px;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+.col {
+    width: calc(100% / 3);
+    /* Debug */
+    min-height: 700px;
+    background-color: gray;
+}
+
+.enterprise {
+    /* Debug */
+    background-color: gray;
+    min-height: 250px;
+}
+
+/* Section-2 */
