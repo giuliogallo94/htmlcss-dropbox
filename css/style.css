@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     font-weight: bold;
+    font-size: 40px;
     margin-bottom: 2rem
 }
 
@@ -120,7 +121,19 @@ nav {
 .section-1 {
     /* Debug */
     min-height: 750px;
-    border: 2px solid black
+    border: 2px solid black;
+}
+
+.input {
+    font-size: 15px;
+}
+
+input {
+    margin-right: 0.3rem;
+}
+
+.right-input {
+    margin-left: 0.5rem;
 }
 
 .plan {
@@ -129,6 +142,7 @@ nav {
     min-height: 250px;
 
 }
+
 .row-1 {
     display: flex;
     justify-content: space-between;
