@@ -10,6 +10,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-weight: bold;
+    margin-bottom: 2rem
+}
+
 /* HEADER */
 header {
     background-color: #B4D0E7;
@@ -70,7 +75,8 @@ nav {
 .section-1 {
     
     /* Debug */
-    min-height: 750px
+    min-height: 750px;
+    border: 2px solid black
 }
 
 .plan {
@@ -79,14 +85,14 @@ nav {
     min-height: 250px;
 
 }
-.row {
+.row-1 {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     margin: 2rem auto;
 }
 
-.col {
+.col-1 {
     width: calc(100% / 3);
     /* Debug */
     min-height: 700px;
@@ -100,3 +106,48 @@ nav {
 }
 
 /* Section-2 */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    /* Debug */
+    min-height: 600px;
+    border: 2px solid black;
+}
+
+.photo-sec-2 {
+    width: 60%;
+    /* Debug */
+    background-color: lightblue;
+    min-height: 400px;
+}
+
+.find-partner {
+    width: 38%;
+    /* Debug */
+    background-color: lightblue;
+    min-height: 400px;
+}
+
+/* Section-3 */
+.section-3 {
+    margin-top: 5rem;
+    /* Debug */
+    min-height: 600px;
+    border: 2px solid black;
+}
+
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2rem auto;
+}
+
+.col-3 {
+    width: calc(100% / 3 - 1rem);
+    /* Debug */
+    min-height: 700px;
+    background-color: gray;
+}
