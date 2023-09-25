@@ -15,6 +15,11 @@ h2 {
     margin-bottom: 2rem
 }
 
+.blue-btn {
+    background-color: #0061ff;
+    padding: 0.2rem 0.8rem;
+    color: white;
+}
 /* HEADER */
 header {
     background-color: #B4D0E7;
@@ -24,23 +29,28 @@ nav {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    /* Debug */
-    background-color: black;
+    align-items: center;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.nav-left {
-    width: 33%;
-    /* Debug */
-    height: 100%;
-    background-color: yellow;
+.nav-side {
+    width: 30%;
 }
 
-.nav-right {
-        width: 33%;
-        /* Debug */
-        height: 100%;
-        background-color: yellow;
+.nav-side ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
+
+.nav-side a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 
 /* Hero */
 .hero {
