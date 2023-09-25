@@ -151,3 +151,15 @@ nav {
     min-height: 700px;
     background-color: gray;
 }
+
+/* Section-4 */
+.section-4 {
+    margin-top: 5rem;
+        /* Debug */
+        min-height: 200px;
+        border: 2px solid black;
+}
+
+.section-4 h2 {
+    width: 40%;
+}
