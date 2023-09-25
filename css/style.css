@@ -9,3 +9,50 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Header */
+header {
+    background-color: #B4D0E7;
+}
+/* Nav */
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* Debug */
+    background-color: black;
+}
+
+.nav-left {
+    width: 33%;
+    /* Debug */
+    height: 100%;
+    background-color: yellow;
+}
+
+.nav-right {
+        width: 33%;
+        /* Debug */
+        height: 100%;
+        background-color: yellow;
+}
+
+/* Hero */
+.hero {
+    width: 75%;
+    margin: 0 auto;
+    /* Debug */
+    height: 600px;    
+    position: relative;
+    border: 1px solid black;
+}
+
+.main-section {
+    width: 100%;
+    position: absolute;
+    top: 3rem;
+    /* Debug */
+    height: 100%;
+    background-color: red;
+    z-index: 5;
+}
