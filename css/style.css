@@ -10,6 +10,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+}
+
 h2 {
     font-weight: bold;
     margin-bottom: 2rem
@@ -20,6 +24,7 @@ h2 {
     padding: 0.2rem 0.8rem;
     color: white;
 }
+
 /* HEADER */
 header {
     background-color: #B4D0E7;
@@ -51,31 +56,61 @@ nav {
     font-size: 15px;
 }
 
-
 /* Hero */
 .hero {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
-    /* Debug */
-    height: 600px;    
+    min-height: 570px;
+}
+
+.hero h1 {
+    margin-top: 3rem;
+}
+
+.hero-relative{
     position: relative;
-    border: 1px solid black;
 }
 
 .main-section {
     width: 100%;
     position: absolute;
-    top: 3rem;
-    /* Debug */
-    height: 100%;
-    background-color: gray;
-    z-index: 5;
+    top: 10rem;
+    display: flex;
 }
 
+.hero-left {
+    width: 30%;
+    font-size: 15px;
+}
+
+.hero-left p {
+    margin-bottom: 2rem;
+}
+
+ .hero-left a {
+    text-decoration: none;
+}
+
+.hero-left i {
+    margin-top: 4rem;
+    font-size: 35px;
+}
+.margin-top {
+    margin-top: 2rem;
+    display: block;
+}
+
+.hero-right {
+    width: 70%;
+}
+
+.hero-right img {
+    max-width: 100%;
+}
 /* MAIN */
 .container {
     width: 65%;
-    margin: 6rem auto;
+    margin: 8rem auto;
     /* Debug */
     min-height: 500px;
     background-color: green;
@@ -83,7 +118,6 @@ nav {
 
 /* Section-1 */
 .section-1 {
-    
     /* Debug */
     min-height: 750px;
     border: 2px solid black
