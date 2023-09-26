@@ -346,15 +346,14 @@ a.buy-now {
 /* Section-4 */
 .section-4 {
     margin-top: 5rem;
-        /* Debug */
-        min-height: 200px;
-        border: 2px solid black;
 }
 
 .section-4 h2 {
-    width: 40%;
+    width: 80%;
 }
 
+.section-4 a {
+color: blue;}
 /* Larger section */
 .larger-section {
     width: 100%;
