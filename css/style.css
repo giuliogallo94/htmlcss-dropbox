@@ -280,48 +280,69 @@ a.buy-now {
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
-    /* Debug */
-    min-height: 600px;
-    border: 2px solid black;
 }
 
 .photo-sec-2 {
     width: 60%;
-    /* Debug */
-    background-color: lightblue;
-    min-height: 400px;
 }
 
+.photo-sec-2 img {
+    max-width: 100%;
+}
 .find-partner {
-    width: 38%;
-    /* Debug */
-    background-color: lightblue;
-    min-height: 400px;
+    width: 40%;
+    padding: 2rem;
+}
+
+.find-partner p {
+    font-size: 13px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.white-btn {
+    border: 1px solid black;
+    padding: 0.2rem 0.8rem;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
 }
 
 /* Section-3 */
 .section-3 {
     margin-top: 5rem;
-    /* Debug */
-    min-height: 600px;
-    border: 2px solid black;
+}
+
+.section-3 h2 {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 
 .row-3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1rem;
+    align-items: center;
+    gap: 2rem;
     margin: 2rem auto;
 }
 
 .col-3 {
-    width: calc(100% / 3 - 1rem);
-    /* Debug */
-    min-height: 700px;
-    background-color: gray;
+    width: calc(100% / 3 - 2rem);
 }
 
+.col-3 img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.col-3 h3 {
+    margin-bottom: 2rem;
+}
+
+.col-3 p {
+    font-size: 13px;
+}
 /* Section-4 */
 .section-4 {
     margin-top: 5rem;
