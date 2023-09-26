@@ -62,21 +62,15 @@ nav {
 .hero {
     width: 70%;
     margin: 0 auto;
-    min-height: 570px;
+    height: 100%;
 }
 
 .hero h1 {
     margin-top: 3rem;
 }
 
-.hero-relative{
-    position: relative;
-}
-
 .main-section {
     width: 100%;
-    position: absolute;
-    top: 10rem;
     display: flex;
 }
 
@@ -89,10 +83,6 @@ nav {
     margin-bottom: 2rem;
 }
 
- /* .hero-left a {
-    text-decoration: none;
-} */
-
 .hero-left i {
     margin-top: 4rem;
     font-size: 35px;
@@ -104,10 +94,12 @@ nav {
 
 .hero-right {
     width: 70%;
+    position: relative;
 }
 
 .hero-right img {
     max-width: 100%;
+    position: absolute;
 }
 /* MAIN */
 .container {
@@ -350,7 +342,7 @@ a.buy-now {
 }
 
 .section-4 h2 {
-    width: 80%;
+    width: 60%;
 }
 
 .section-4 a {
@@ -459,19 +451,12 @@ color: blue;
 }
 
 /* Faq */
-.faq {
-    /* Debug */
-    min-height: 500px;
-    /* background-color: lightblue; */
-    /* border: 2px solid black;s */
-}
-
 .faq h2 {
     border-bottom: 1px solid black;
     padding-bottom: 3rem;
 }
 
-.faq-item {
+.question {
     border-bottom: 1px solid black;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -481,11 +466,39 @@ color: blue;
     padding-right: 2rem;
 }
 
+.answer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid black;
+    display: none;
+}
 
+.faq-1:hover .answer {
+    display: inline-block;
+}
+
+.faq-1:hover i {
+    transform: rotate(180deg);
+} 
+
+.faq-2:hover .answer {
+    display: inline-block;
+}
+
+.faq-2:hover i {
+    transform: rotate(180deg);
+} 
+
+.faq-3:hover .answer {
+    display: inline-block;
+}
+
+.faq-3:hover i {
+    transform: rotate(180deg);
+} 
 /* Footer */
 footer {
     background-color: black;
-    /* min-height: 400px; */
 }
 
 .footer {
