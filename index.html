@@ -25,7 +25,7 @@
       <!-- Navbar -->
       <nav>
         <div class="nav-side">
-          <ul>
+          <ul class="left">
             <li>
               <a href=""><img src="img/logo-small.png" alt="" /></a>
             </li>
@@ -35,11 +35,11 @@
           </ul>
         </div>
         <div class="nav-side">
-          <ul>
+          <ul class="right">
             <li><a href="">Supporto</a></li>
             <li><a href="">Contatta l'ufficio vendite</a></li>
             <li><a href="">Accedi</a></li>
-            <li><a class="blue-btn" href="">Inizia</a></li>
+            <li><a id="blue-btn" href="">Inizia</a></li>
           </ul>
         </div>
       </nav>
@@ -56,9 +56,9 @@
                 uno spazio di archiviazione sicuro: è un modo intelligente e
                 integrato per ottimizzare il flusso di lavoro esistente.
               </p>
-              <a class="blue-btn" href="">Inizia la tua prova gratuita</a>
+              <a id="blue-btn" href="">Inizia la tua prova gratuita</a>
               <span class="margin-top">Annulla in qualsiasi momento</span>
-              <i class="fa-solid fa-arrow-down"></i>
+              <a href="#section-1"><i class="fa-solid fa-arrow-down"></i></a>
             </div>
             <div class="hero-right">
               <img src="img/jumbo.png" alt="" />
@@ -75,7 +75,7 @@
       <!-- Container -->
       <div class="container">
         <!-- Section-1 -->
-        <div class="section-1">
+        <div name="section-1" class="section-1">
           <h2>Trova il piano business che fa per te</h2>
           <div class="input">
             <input type="radio" name="payment"/>Fatturazione mensile
@@ -112,7 +112,7 @@
                   </ul>
                 </div>
                 <div class="cta">
-                  <a class="blue-btn" href="">Prova gratis per 30 giorni</a>
+                  <a id="blue-btn" href="">Prova gratis per 30 giorni</a>
                 </div>
 
                 <p>oppure <a class="buy-now" href="">acquista ora</a></p>
@@ -163,7 +163,7 @@
                   </ul>
                 </div>
                 <div class="cta">
-                  <a class="blue-btn" href="">Prova gratis per 30 giorni</a>
+                  <a id="blue-btn" href="">Prova gratis per 30 giorni</a>
                 </div>
                 <p>oppure <a class="buy-now" href="">acquista ora</a></p>
                 <hr />
@@ -224,7 +224,7 @@
                   </ul>
                 </div>
                 <div class="cta">
-                  <a class="blue-btn" href="">Contattaci</a>
+                  <a id="blue-btn" href="">Contattaci</a>
                 </div>
 
                 <p>oppure <a class="buy-now" href="">acquista ora</a></p>
@@ -270,7 +270,7 @@
                   </p>
                 </div>
                 <div class="right-enterprise">
-                  <a class="blue-btn" href="">Contatta l'ufficio vendite</a>
+                  <a id="blue-btn" href="">Contatta l'ufficio vendite</a>
                 </div>
               </div>
             </div>
@@ -482,7 +482,7 @@
         <div class="footer-top">
           <div class="footer-list dropbox-footer">
             <ul>
-              <li class="list-name">Dropbox</li>
+              <li id="list-name">Dropbox</li>
               <li>Applicazioni desktop</li>
               <li>Perchè Dropbox</li>
               <li>Piani</li>
@@ -492,7 +492,7 @@
           </div>
           <div class="footer-list product-footer">
             <ul>
-              <li class="list-name">Prodotti</li>
+              <li id="list-name">Prodotti</li>
               <li>Applicazioni desktop</li>
               <li>Perchè Dropbox</li>
               <li>Piani</li>
@@ -502,7 +502,7 @@
           </div>
           <div class="footer-list company-footer">
             <ul>
-              <li class="list-name">Azienda</li>
+              <li id="list-name">Azienda</li>
               <li>Applicazioni desktop</li>
               <li>Perchè Dropbox</li>
               <li>Piani</li>
@@ -512,7 +512,7 @@
           </div>
           <div class="footer-list support-footer">
             <ul>
-              <li class="list-name">Supporto</li>
+              <li id="list-name">Supporto</li>
               <li>Applicazioni desktop</li>
               <li>Perchè Dropbox</li>
               <li>Piani</li>
@@ -522,7 +522,7 @@
           </div>
           <div class="footer-list community-footer">
             <ul>
-              <li class="list-name">Community</li>
+              <li id="list-name">Community</li>
               <li>Applicazioni desktop</li>
               <li>Perchè Dropbox</li>
               <li>Piani</li>
@@ -535,7 +535,13 @@
         <hr class="white" />
         <!-- Footer bottom -->
         <div class="footer-bottom">
-          <div class="language"></div>
+          <div class="world">
+            <i class="fa-solid fa-earth-americas"></i>
+            <div class="language">
+            <span class="ita">Italiano</span>
+            <a href=""><i class="fa-solid fa-caret-up"></i></a>
+          </div>
+          </div>
         </div>
         <!-- /Footer bottom -->
       </div>
