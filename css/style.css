@@ -306,6 +306,7 @@ a.buy-now {
     text-decoration: none;
     color: black;
     font-size: 13px;
+    background-color: white;
 }
 
 /* Section-3 */
@@ -353,49 +354,93 @@ a.buy-now {
 }
 
 .section-4 a {
-color: blue;}
+color: blue;
+}
 /* Larger section */
 .larger-section {
     width: 100%;
-    /* Debug */
-    border: 2px solid black;
-    background-color: #B4D0E5;
-    min-height: 800px;
+    background-color:#B4D0E7;
 }
 
 .companies {
     display: flex;
-    /* width: 100%; */
-    /* Debug */
-    min-height: 600px;
-    border: 2px solid black;
 }
 
 .side-companies {
     width: 33%;
     display: flex;
     flex-wrap: wrap;
-    /* Debug */
-    /* background-color: red; */
 }
 
 .inner-companies {
     width: 50%;
-    /* Debug */
-    background-color: beige;
-    min-height: 300px;
-    border: 2px solid black;
+    height: 50%;
+    padding: 0.5rem;
+}
+
+.inner-companies img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.designit {
+    background-color: #D1E9CD;
+}
+
+.designit img{
+    background-color:#A2D39B;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.florida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+.wbc {
+    background-color: #D5001F;
+}
+
+.hearts {
+    background-color: #B4D0E7;
+}
+
+.lonely {
+    background-color: #0D2481;
+}
+
+.clear {
+    background-color: #FFD830;
 }
 
 .central-companies {
-    width: 33%;
-    /* Debug */
-    background-color: white;
-    min-height: 300px;
-    border: 2px orange solid;
+    width: 34%;
+    padding: 3rem;
+    background-color: #F5F5F5;
 }
+ .central-companies img {
+    max-width: 50%;
+ }
 
-.free-trial {
+ .central-companies hr {
+    width: 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ .central-companies p {
+    margin-bottom: 2rem;
+ }
+
+.free-trial {   
     width: 65%;
     margin: 0 auto;
     padding: 4rem 0;
@@ -408,9 +453,9 @@ color: blue;}
     color: #610A11;
 }
 
-.free-trial a {
-    border: 1px solid black;
-    background-color: white;
+.trial-btn {
+    height: 100%;
+    border: none;
 }
 
 /* Faq */
