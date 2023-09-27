@@ -77,12 +77,16 @@
         <div name="section-1" class="section-1">
           <h2>Trova il piano business che fa per te</h2>
           <div class="input">
-            <input checked type="radio" name="payment" />Fatturazione mensile
+            <label for="monthly">
+            <input checked type="radio" name="payment" id="monthly" />Fatturazione mensile</label>
+            <label for="yearly">
             <input
               class="right-input"
               type="radio"
               name="payment"
+              id="yearly"
             />Fatturazione annuale
+          </label>
           </div>
 
           <!-- Plans -->
